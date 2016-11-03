@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/qsses">
+        <file>GScrollArea.qss</file>
+    </qresource>
+</RCC>

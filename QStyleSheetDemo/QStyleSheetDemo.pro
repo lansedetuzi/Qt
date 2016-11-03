@@ -6,13 +6,24 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets multimedia multimediawidgets
 
 TARGET = QStyleSheetDemo
 TEMPLATE = app
 
+INCLUDEPATH = include
 
-SOURCES += main.cpp\
-        MainWindow.cpp
+SOURCES += \
+        src\main.cpp\
+        src\MainWindow.cpp \
+        src\GScrollArea.cpp \
+        src\GFileUtils.cpp
 
-HEADERS  += MainWindow.h
+HEADERS  += \
+        include\MainWindow.h \
+        include\GScrollArea.h \
+        include/GFileUtils.h
+
+RESOURCES += \
+    res/icon/icon.qrc \
+    res/qss/qss.qrc

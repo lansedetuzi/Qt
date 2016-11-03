@@ -1,0 +1,22 @@
+GScrollArea
+{
+	background-color: white;
+    background-image: url(":icons/rain.jpg");
+    background-attachment: fixed;
+}
+
+QTextEdit
+{
+	background-color: white;
+    background-image: url(":icons/rain.jpg");
+    background-attachment: scroll;
+	border: 1px solid #000;
+}
+QTextEdit:hover
+{
+	border: 1px solid #18adee;
+}
+QTextEdit:focus
+{
+	border: 1px solid QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffa02f, stop: 1 #d7801a);
+}
